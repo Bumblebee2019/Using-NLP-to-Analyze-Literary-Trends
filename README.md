@@ -12,7 +12,9 @@ All of our data was raw data, so data cleaning was a very important process to e
 
 ## Exploratory Data Analysis (EDA)
 
-<insert spider chart pic>
+![](Pictures/Spider_Chart_1.PNG)
+![](Pictures/Spider_Chart_2.PNG)
+![](Pictures/Spider_Chart_3.PNG)
 
 Analysis: 
 The spider charts give a visual representation of the ratio of different parts of speech during different eras. This is very useful for quickly detecting any outliers and grasping an overall idea of changing trends. In our case, it was very helpful to detect overall consistency in the ratio of different parts of speech, and how the overall patterns were changing. 
