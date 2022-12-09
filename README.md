@@ -1,0 +1,6 @@
+# Using NLP to Analyze Literary Trends
+
+## Project Summary
+In this project, we utilized Natural Language Processing (NLP) to understand how sentence length varied between the 1800s and present day. We also analyzed how the ratio of nouns, verbs, adjectives, and adverbs changed in an average sentence over the eras. 
+For our analysis, we built a KNN algorithm that is able to predict what era a particular text belongs to based on the number of nouns per sentence. While this model can be built around any part of speech, we found that the number of nouns per sentence is the most accurate metric, as it is very distinct for different eras. That is, the number of nouns is negatively correlated with years, as will be seen in some visualizations.
+Moreover, we were able to develop a Naive Bayes’ algorithm that can predict which year a book may have been released when the algorithm is given a value for average sentence length and average noun usage. We were also able to develop a KNN algorithm that can predict what era text came from based on the average noun use and sentence length. Finally, we also developed a linear regression model that can predict the year a novel came from based on the average noun usage.
