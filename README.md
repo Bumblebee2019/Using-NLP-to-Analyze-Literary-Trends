@@ -57,12 +57,14 @@ This scatterplot shows the relationship between the amount of adverbs and verbs 
 Analysis: 
 The line plot displays the change in average usage of parts of speech throughout the five eras this study focused on. The red line, representing the average number of nouns used in literature throughout the time periods, significantly drops after the 1860-1914 time period. This could be due to any reason, including the historical events that were happening across the world during the early 1900s which significantly affected literature. The lines representing the average parts of speech usage for verbs and adverbs have remained consistent throughout the eras with a slight and gradual decrease over time. The line representing adjectives demonstrates a drop for the 1914-1939 era and a slight increase for the 1939-1960 era.
 
-## Algorithms 
 
 ### POS Distribution 1960-Present
 <pos 2>
 Analysis: 
 The stacked bar plot represents the distribution for parts of speech from 1960 - present day. Each color represents a part of speech, with pink for nouns, orange for verbs, green for adjectives, and blue for adverbs. Looking at the pink section of each bar, the overall average use of nouns has always been the highest compared to other parts of speech and verbs make up for the least amount of words in a sentence from this time period. The bars are different sizes because sentence length varied throughout the time period. The variation in parts of speech throughout this era could be due to the change in topics that were popular in literature every decade. 
+
+## Algorithms 
+ 
 
 ### KNN Algorithm
 <knn>
@@ -76,7 +78,9 @@ To create the KNN analysis for this dataset, we had to retrieve all the sentence
 
 Analysis:
 After looking at the spider charts, which show the number of different parts of speech in the first 50 sentences of each novel, I decided to look at the trends for nouns specifically, as well as nouns vs adjectives per sentence. As inferred from the spider charts, the relationship between nouns and adjectives is mostly consistent, as seen from the Nouns vs Adjective Count. Moreover, the number of nouns per sentence decreases linearly as years increase (Years vs Noun Count). 
-These visualizations are mostly to quantify what is seen on a spider chart. From a spider chart we could see that the ratio of parts of speech to one another remained the same, but it is nearly impossible to ascertain that the relationship between nouns and adjectives is indeed linear and that the number of nouns decreases linearly with years. For the second graph, I specifically chose nouns vs adjectives since adjectives modify nouns in text, and their relationship is more indicative of a particular trend, than verbs vs. adjectives, for example. 
+These visualizations are mostly to quantify what is seen on a spider chart. From a spider chart we could see that the ratio of parts of speech to one another remained the same, but it is nearly impossible to ascertain that the relationship between nouns and adjectives is indeed linear and that the number of nouns decreases linearly with years. For the second graph, I specifically chose nouns vs adjectives since adjectives modify nouns in text, and their relationship is more indicative of a particular trend, than verbs vs. adjectives, for example. For the same reason, nouns play the role of an independent variable, and adjectives are dependent. 
+Linear regression helps to see whether variables are strongly or weakly correlated, and while there is not a strong correlation between years and noun counts, there is a linear tendency to the overall shape. This lack of a stronger linear correlation may be due to a small sample.
+
 
 
 
