@@ -103,6 +103,12 @@ These visualizations are mostly to quantify what is seen on a spider chart. From
 Linear regression helps to see whether variables are strongly or weakly correlated, and while there is not a strong correlation between years and noun counts, there is a linear tendency to the overall shape. This lack of a stronger linear correlation may be due to a small sample.
 
 
+## Conclusion:
+
+Our initial hypothesis was that sentence length would decrease over time, as well as the average number of adjectives and adverbs per sentence. Indeed, average sentence length decreased by half between 1800 and 2022. While the numbers of all parts of speech in an average sentence decreased over time, the number of nouns decreased the most dramatically, from approximately 350 in the early 1800s to approximately 250 in the early 2000s. When drawing such conclusions, however, it is also important to take into account the number of samples. We were able to only have 1-3 samples for each year and some of the novels may not be very representative of the writing style during that era and, therefore, be an outlier.
+
+
+
 
 
 
