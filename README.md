@@ -1,5 +1,7 @@
 # Using NLP to Analyze Literary Trends
 
+## Project By: Daria Senchylova, Denise Chan, Neda Mohammadi, Tann Nguyen, Trisha Agrawal
+
 ## Project Summary
 In this project, we utilized Natural Language Processing (NLP) to understand how sentence length varied between the 1800s and present day. We also analyzed how the ratio of nouns, verbs, adjectives, and adverbs changed in an average sentence over the eras. 
 For our analysis, we built a KNN algorithm that is able to predict what era a particular text belongs to based on the number of nouns per sentence. While this model can be built around any part of speech, we found that the number of nouns per sentence is the most accurate metric, as it is very distinct for different eras. That is, the number of nouns is negatively correlated with years, as will be seen in some visualizations.
